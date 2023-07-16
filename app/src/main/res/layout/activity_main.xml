@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="2dp"
+    android:background="#FF6EC7"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/jn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Hallo Cindy"
+
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15pt"
+         />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/images"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>
